@@ -1,0 +1,4 @@
+name = Smerp Spawner
+author = quarkhopper
+description = [h1]Adorable little abominations to obliterate![/h1]Three varieties of smerps to spawn! They live, they die, they scream! (left mouse) to spawn, (right mouse) to change type.[h1][/h1][h1]Populate your map with ragdolls![/h1] Press X to spawn 50 randomly around the map using a specially designed dynamic mapping algorithm. Smerps show up where they have space to spawn on ground that's flat enough to stand on. They spawn more in sheltered (indoor) areas than outdoor.[h1][/h1][h1]DEATH CAM![/h1]Toggle death cam on and off with the (I) key to instantly see all the horrible mayham you're inflicting on the smerps, even if you can't see it where you're standing.
+tags = Tool

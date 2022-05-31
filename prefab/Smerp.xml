@@ -1,0 +1,33 @@
+<!-- smerps dimensions are 7 18 13 -->
+<prefab version="0.9.0">
+	<group id_="1311586999" open_="true" name="instance=MOD/prefab/Smerp.xml">
+		<script id_="102504560" open_="true" file="MOD/script/lib/Smerp.lua">
+			<body id_="1724881664" open_="true" tags="SmerpBody" pos="0.0 0.0 0.0" dynamic="true">
+				<body id_="381836032" open_="true" tags="limb torso" pos="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1054014272" open_="true" tags="SmerpTorso nocull" pos="-0.0 0.4 0.0" density="0.8" collide="true" file="MOD/vox/Smerp.vox" object="Torso">
+						<joint id_="556631232" name="armr" pos="0.0 0.6 0.2" size="0.15" rotstrength="0.0003" rotspring="0.001" collide="true" limits="1 10"/>
+						<joint id_="2053630336" name="arml" pos="0.0 0.6 -0.3" size="0.15" rotstrength="0.0003" rotspring="0.001" collide="true" limits="1 10"/>
+						<joint id_="278282848" name="head" pos="0.0 0.8 -0.05" type="ball" size="0.15" rotstrength="0.003" rotspring="0.3" collide="true" limits="1 20"/>
+						<joint id_="1909376768" name="legr" pos="0.1 0.1 0.1" size="0.1" rotstrength="0.003" rotspring="0.05" collide="true" limits="1 10"/>
+						<joint id_="1909311232" name="legl" pos="0.1 0.1 -0.2" size="0.1" rotstrength="0.003" rotspring="0.05" collide="true" limits="1 10"/>
+					</vox>
+				</body>
+				<body id_="792706304" open_="true" tags="limb" pos="0.0 0.0 0.0" dynamic="true">
+					<vox id_="191180176" tags="SmerpHead nocull" pos="0.1 1.2 0.0" density="0.8" collide="true" file="MOD/vox/Smerp.vox" object="Head"/>
+				</body>
+				<body id_="1183324672" open_="true" tags="limb" pos="0.0 0.0 0.0" dynamic="true">
+					<vox id_="8585740" tags="nocull" pos="0.1 0.0 0.2" density="0.8" collide="true" file="MOD/vox/Smerp.vox" object="Leg_L"/>
+				</body>
+				<body id_="1231496576" open_="true" tags="limb" pos="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1308637184" tags="nocull" pos="0.1 0.0 -0.2" density="0.8" collide="true" file="MOD/vox/Smerp.vox" object="Leg_R"/>
+				</body>
+				<body id_="1708693376" open_="true" tags="limb" pos="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1757455104" tags="nocull" pos="-0.0 0.3 -0.3" rot="0 0 0" density="0.8" collide="true" file="MOD/vox/Smerp.vox" object="Arm"/>
+				</body>
+				<body id_="1674219264" open_="true" tags="limb" pos="0.0 0.0 0.0" dynamic="true">
+					<vox id_="321866944" tags="nocull" pos="0.0 0.3 0.3" rot="0 0 0" density="0.8" collide="true" file="MOD/vox/Smerp.vox" object="Arm"/>
+				</body>
+			</body>
+		</script>
+	</group>
+</prefab>
