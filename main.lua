@@ -54,7 +54,7 @@ end
 -------------------------------------------------
 
 function draw()
-	if osd then 
+	if osd or GetString("game.player.tool") == REG.TOOL_KEY then 
 		UiPush()
 			UiTranslate(UiWidth(), 27)
 			UiAlign("right")
