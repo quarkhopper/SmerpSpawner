@@ -46,7 +46,7 @@ function init()
 	death_cam_follow_timer = 0
 	death_cam_max_follow = 6
 
-	osd = true
+	osd = false
 end
 
 -------------------------------------------------
@@ -63,7 +63,7 @@ function draw()
 			UiColor(1,1,1)
 			UiText("smerps (dead/alive): ("..death_toll.."/"..#smerps..")", true)
 			if death_cam_mode and death_cam_focus == nil then
-				UiText("Death cam mode on (I to turn off)")
+				UiText("Death cam mode on ("..KEY.DEATH_CAM_TOGGLE.key.." to turn off)")
 			end
 		UiPop()
 
