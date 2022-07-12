@@ -92,7 +92,7 @@ function draw()
 		UiText("RMB to change smerp type", true)
 		UiText(KEY.SPAWN_GROUP.key.." to spawn 50 smerps randomly around", true)
 		UiText(KEY.DEATH_CAM_TOGGLE.key.." to activate smerp death cam", true)
-		UiText(KEY.OSD.key.." to toggle information (upper right) on/off")
+		UiText(KEY.OSD.key.." to pin/unpin info (upper right) for all tools")
 	UiPop()
 end
 
